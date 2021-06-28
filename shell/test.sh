@@ -211,3 +211,5 @@ MSG "Sauvegarde de log"
 cat $InitLOG > $LOG
 
 [ $? -ne 0 ] && FatalERROR "Problème lors de la sauvegarde de la log"
+
+echo "end of script"
